@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+
+<body>
+
+    <div class="content">
+        <h2>My Dashboard</h2>
+        <div class="search-bar">
+            <i class="uil uil-search"></i>
+            <input type="search" placeholder="search">
+        </div>
+
+
+    </div>
+
+    <br><br><br><br><br><br>
+    <div class="maincontent">
+        <br><br>
+
+        <h3>Upload your image</h3>
+        <br>
+
+        <!-- <div class="drop-zone">
+
+            <input id="default-btn" type="file" hidden>
+            <br>
+            <button id="custombtn" onclick="fileupload()" class="btn btn-success">Choose a file</button>
+        </div>
+        <br> -->
+
+        <div class="drag-area">
+            <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+            <button id="custombtn" class="btn btn-success">Choose a file</button>
+            <input type="file" hidden>
+        </div>
+
+        <br><br>
+    </div>
+    <br><br>
+
+    <div class="resumecontent">
+
+        <h3>Upload your resume</h3>
+        <br>
+
+        <div class="drag-area">
+            <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+            <button id="custombtn1" class="btn btn-success">Choose a file</button>
+            <input type="file" hidden>
+        </div>
+        <br><br>
+
+
+    </div>
+
+    <!-- <div class="category">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <hr>
+        Choose Organisation:
+        <select id="slct1" name="slct1" onchange="populate(this.id,'slct2')" required>
+            <option value=""></option>
+            <option value="ABC">ABC</option>
+            <option value="DEF">DEF</option>
+            <option value="GHI">GHI</option>
+        </select>
+        <hr />
+        <br><br><br><br><br>
+        <hr>
+        Choose Job Available:
+        <select id="slct2" name="slct2" required></select>
+        <hr />
+    </div>
+     
+    <br><br>
+    <button type="btn" id="successbtn"class="btn btn-success">Submit</button> -->
+
+   
+    <!-- <button type="btn" class="btn btn-success" value="submit"> Submit</button> -->
+
+    <script src="./scripts/dashboard.js"></script>
+</body>
+
+</html>
